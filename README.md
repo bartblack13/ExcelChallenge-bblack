@@ -12,7 +12,7 @@
 * and COUNTIF functions
 ## Analysis and Challenges
 ### Analysis
-For the first deliverable, "Theather Outcomes by Launch Date", I added a new column and used the Year function to extract the year from the "Date Created Conversion" column, which was generated from the UNIX codes.  **insert pic**.
+For the first deliverable, "Theather Outcomes by Launch Date", I added a new column and used the Year function to extract the year from the "Date Created Conversion" column, which was generated from the UNIX codes.  ![This is an image](https://github.com/bartblack13/ExcelChallenge-bblack/blob/main/Theater_Outcomes_vs_Launch%20averages.png)
 I then created a pivot table from the updated worksheet, and set up the table as below.  The table has been set up to show all years, filtering "theater", showing only "successful, Canceled, and Failed" projects, and sorted to display the outcomes in the table in reverse alphabetical order. I also added a table with percents of outcomes **Insert Pic**
 For the second deliverable, "Outcomes based on Goals", I created a table with the funding ranges in the fist column and then used the COUNTIF function linked to the main data set sheet to populate out the table.  The table included outcome criteria: successful, failed, and canceled; monitary goal ranges, and filtered for plays only.  An example of the COUNTIF code is below.
 
