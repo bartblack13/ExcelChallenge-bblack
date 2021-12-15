@@ -11,7 +11,18 @@
   - data visualization - box plots, line graphs, etc
 * and COUNTIF functions
 ## Analysis and Challenges
-###
+### Analysis
+For the first deliverable, "Theather Outcomes by Launch Date", I added a new column and used the Year function to extract the year from the "Date Created Conversion" column, which was generated from the UNIX codes.  **insert pic**.
+I then created a pivot table from the updated worksheet, and set up the table as below.  The table has been set up to show all years, filtering "theater", showing only "successful, Canceled, and Failed" projects, and sorted to display the outcomes in the table in reverse alphabetical order. I also added a table with percents of outcomes **Insert Pic**
+For the second deliverable, "Outcomes based on Goals", I created a table with the funding ranges in the fist column and then used the COUNTIF function linked to the main data set sheet to populate out the table.  The table included outcome criteria: successful, failed, and canceled; monitary goal ranges, and filtered for plays only.  An example of the COUNTIF code is below.
+
+=COUNTIFS('Kickstarter (modified)'!$F:$F, "failed", 'Kickstarter (modified)'!$D:$D, ">=1000", 'Kickstarter (modified)'!$D:$D, "<=4999", 'Kickstarter (modified)'!$S:$S, "plays")
+
+I generated corresponding percentages, and then used those percentages to create a line graph.  I also generated a bar graph for all the funding ranges and all 3 outcomes.  **insert pic**
+
+### Challenges
+For me, keeping track of what I was actually doing, or what a graph was actually telling me, was difficult.  For example, a graph could be generated from data in a sheet, but that data was copied from a different sheet after applying filters.  Or the graph might be generated using data or formulas that auto-update the graph as data changes.  Since we would make graphs, then go and clear filters, reset the data set, or change other minor things, sometimes, those changes would result in changed graphs, and updated trends.  This is a huge problem, per say, but something that needs to be remembered.  Saving graphs with clear titles, labels, or even descriptions, would be helpful.
+Also, buidling complex formulas that reference cells, columns, or tables in other sheets, can be tricky.  This was definately the case for me with the COUNTIF functions, when multiple creiterias were being asked for.
 ## Results
 ### What are two conclusions you can draw about the Theater Outcomes by Launch Date? 
 At first glance, it seems that theater kickstarters launched in the summer are the substantially more successful in comparison to the rest of the year.  The graph indicates that May is the most successful, followed by June, then July, with success rates of 66.9%, 65.4%, and 63.0%, respectively.  If one lookes at the graph alone, they might conclude that kickstarters launched between May-July, are exceedingly more successful.  However, if you calculate out the percent success (successful campaigns divided by total campaigns), it becomes obvious, that most months are similarly successful.  
