@@ -26,7 +26,7 @@ For the second deliverable, "Outcomes based on Goals", I created a table with th
 
 I generated corresponding percentages, and then used those percentages to create a line graph.  I also generated a bar graph for all the funding ranges and all 3 outcomes.
 
-![This is an image](https://github.com/bartblack13/ExcelChallenge-bblack/blob/main/Outcomes%20of%20Plays%20by%20Funding%20Goals.png)
+![This is an image](https://github.com/bartblack13/ExcelChallenge-bblack/blob/main/Outcomes%20of%20Plays%20by%20Funding%20Goals%20screen.png)
 
 ### Challenges
 For me, keeping track of what I was actually doing, or what a graph was actually telling me, was difficult.  For example, a graph could be generated from data in a sheet, but that data was copied from a different sheet after applying filters.  Or the graph might be generated using data or formulas that auto-update the graph as data changes.  Since we would make graphs, then go and clear filters, reset the data set, or change other minor things, sometimes, those changes would result in changed graphs, and updated trends.  This is a huge problem, per say, but something that needs to be remembered.  Saving graphs with clear titles, labels, or even descriptions, would be helpful.
@@ -38,6 +38,7 @@ At first glance, it seems that theater kickstarters launched in the summer are t
 The average percent success is 60.6% with a standard deviation of 4.2%, yielding 56.4%-64.8% success rate +/- 1 standard deviation.  December is the only month that falls outside this range, with a rate of 49.3% success, which is in the -3 standard deviation range.  In reality, May and June are the only two months that are higher than the 1 standard deviation range mentioned above, but this is barely the case, espcecially for June. 
 
 ![This is an image](https://github.com/bartblack13/ExcelChallenge-bblack/blob/main/Theater_Outcomes_vs_Launch.png)
+![This is an image](https://github.com/bartblack13/ExcelChallenge-bblack/blob/main/Theater_Outcomes_vs_Launch%20table.png)
 
 So yes, if Louise can arrange to launch her kickstarter in May, followed by June, she will be more likely to succeed than any other month; but in reality, her chance of success is pretty even through out the year, excluding December.
 
